@@ -8,6 +8,8 @@ To find a key a binary search is performed on the x axis to find a matching y ax
 
 The term sqrt stands for square root, and cbrt stands for cube root.
 
+![binary cube visualization](https://github.com/scandum/binary_cube/blob/main/binary_cube1.png)
+
 Insertion
 ---------
 Inserting or removing a node is an O(cbrt n) operation. If a node falls between two Z axes the binary cube picks the lower order axis so the node is appended to the end, which is a faster operation. As a consequence a node will never be inserted on the 0 index with the exception of the floor axis.
