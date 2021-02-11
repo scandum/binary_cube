@@ -64,10 +64,10 @@ Iterating is similar to iterating a multi-dimensional array, since the data is s
 
 Advantages
 ----------
-* Low memory overhead.
+* Memory overhead similar to hash tables.
 * Data is stored in order.
 * Iterating a search cube is faster and easier than iterating a tree.
-* O(1) insertion of sorted data.
+* Fast insertion of sorted data.
 * O(cbrt n) index searches.
 * Easy to balance.
 
@@ -81,4 +81,4 @@ A binary cube outperforms the C++ std::map.
 
 Source code
 -----------
-Coming soon-ish.
+The source code is a bit of a proof of concept. Keys are integers but this is easily changed to strings. 
