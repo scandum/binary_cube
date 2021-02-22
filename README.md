@@ -54,9 +54,9 @@ The lower axes in a binary cube can be given a fixed maximum size. The Z axes ca
 
 Cubesort
 --------
-Cubesort uses a binary cube for its ability to partition. The Z axes are not instantly sorted using a binary insertion sort, instead cubesort waits until a Z axis before bulk sorting it using [quadsort](https://github.com/scandum/quadsort).
+Cubesort uses a binary cube for its ability to partition. The Z axes are not instantly sorted using a binary insertion sort, instead cubesort waits until a Z axis becomes full before bulk sorting it using insertion sort.
 
-A binary cube can be easily converted to a 1 dimensional array and back. Cubesort is well-suited as an online or external sort.
+A binary cube can be easily converted to a 1 dimensional array and back. Cubesort is well-suited as an online or external sort. A simplified cubesort implementation is [gridsort](https://github.com/scandum/gridsort).
 
 Iterating a binary cube
 -----------------------
